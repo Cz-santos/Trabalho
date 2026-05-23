@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    font-size: 10px;
+}
+.começo{
+    display: flex;
+    align-items: center;
+    margin-top: 3.3em;
+}
+
+
+
+h1{
+font-size: 2.3em;
+margin-left: 2.8em;
+color: rgb(29, 0, 158);
+}
+.bot{
+    display: flex;
+    gap: 3.5em;
+    margin-left: 39em;
+    font-size: 1.8em;
+}
+.img1{
+    display: flex;
+    margin-right: em;
+}
+.but1 a{
+    text-decoration: none;
+    color: rgb(29, 0, 158);
+}
+.but2 a{
+    text-decoration: none;
+     color: rgb(29, 0, 158);
+}
+.but3 a{
+    text-decoration: none;
+     color: rgb(29, 0, 158);
+}
+.but4 a{
+    text-decoration: none;
+     color: rgb(29, 0, 158);
+}
+.but5 a{
+    text-decoration: none;
+     color: rgb(29, 0, 158);
+}
+.prédio{
+    margin-left: 100em;
+    display: flex;
+}
+.meio{
+    background-color: rgb(250, 248, 245);
+    margin-top: 5em;
+    position: relative;
+    background-image: url(prédio.png);
+    height: 70em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+    
+.frase{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 10em;
+    left: 4em;
+    gap: 3em;
+    flex-direction: column;
+    align-items: center; 
+    color: rgba(255, 255, 255, 0.767);
+    backdrop-filter: blur(0.7em);
+    padding:0.5em 0.2em ;
+    height: 30em;
+    width: 70em;
+    border-radius: 2em;
+    
+      
+}
+.palavra{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size:  3.4em;
+    color: rgb(29, 0, 158);
+    align-items: center;
+}
+.but6{
+    font-size: 2.3em ;
+    display: flex;
+    margin-right: 18.5em;
+    border: 0.1em solid white;
+    padding: 0.23em  0.12em;
+    width: 9em;
+    height: 0.9em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    color: white;
+    background-color:  rgb(29, 0, 158);;
+    text-decoration: none;
+}
+.semifinal{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 2.9em;
+   font-size: 2em;
+   position: relative;
+}
