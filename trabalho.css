@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     margin-top: 3.3em;
+    
 }
 .titulo{
     display: flex;
@@ -107,6 +108,22 @@ h2{
     text-decoration: none;
     box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
 }
+.but6:hover{
+    font-size: 2.3em ;
+    display: flex;
+    margin-right: 18.5em;
+    border: 0.1em solid rgb(106, 76, 240);
+    padding: 0.23em  0.12em;
+    width: 9em;
+    height: 0.9em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(146, 121, 255) ;
+    text-decoration: none;
+    box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+}
 .semifinal{
     display: flex;
     flex-direction: row;
@@ -146,6 +163,19 @@ h3{
   margin: 0;       
   text-decoration: none;
   background-color: rgb(29, 0, 158);
+  color: white;
+  height: 2em;
+  width: 8em;               
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3em;
+  box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+}
+.div1 a:hover, .div2 a:hover, .div3 a:hover, .div4 a:hover{
+      display: flex;
+  margin: 0;       
+  text-decoration: none;
+  background-color: rgb(146, 121, 255);
   color: white;
   height: 2em;
   width: 8em;               
@@ -210,22 +240,45 @@ h3{
 .fim{
     display: flex;
     margin-top: 1em;
-     margin-left: 3em;
-     flex-direction: row;
+    margin-left: 3em;
+    flex-direction: row;
+       border: solid 0.1em gainsboro;
+    
 }
-
-.finam{
-    font-size:  2em;
+h5{
+     font-size:  1.3em;
+     color: rgb(29, 0, 158);
+     justify-content: center;
 }
 .cont{
     display: flex;
+    gap: 0.1em;
+    font-size: 1.9em;
+    padding: 0.9em 1.9em ;
+    justify-content: center;
+   
+}
+.not{
+    display: flex;
     gap: 0.10em;
     font-size: 1.9em;
+    flex-direction: column;
+    border: solid 0.1em gainsboro;
+    padding: 0.9em 1.9em ;
+    
+}
+.pr{
+    display: flex;
+    gap: 0.10em;
+    font-size: 1.9em;
+    flex-direction: column; 
+    padding: 0.9em 1.9em ;
+   
+    
 }
 
-.id{
 
-}
+
 
 
 
