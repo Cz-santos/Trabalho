@@ -38,6 +38,13 @@ color: rgb(29, 0, 158);
      white-space: nowrap;
      color: rgb(29, 0, 158);
 }
+.but1 :hover, .but2 :hover, .but3 :hover, .but4 :hover,.but5 :hover{
+    color: rgb(106, 76, 240);
+    background-color: rgb(255, 255, 255);
+    padding:0.5em 1em ;
+    border-radius: 2em;
+    border: solid 0.1em rgb(214, 214, 219);
+}
 .prédio{
     margin-left: 100em;
     display: flex;
@@ -170,15 +177,13 @@ h3{
       font-size: 1.5em ;
     display: flex;
     margin-right: 18.5em;
-    border: 0.1em solid rgb(0, 0, 0);
     padding: 0.2em  0.  2em;
     width: 10em;
     height: 2.5em;
     justify-content: center;
     align-items: center;
     border-radius: 0.3em;
-    color: white;
-    background-color:  rgb(29, 0, 158);;
+    color: rgb(29, 0, 158);
     text-decoration: none;
     box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(219, 216, 216);
 }
@@ -188,7 +193,7 @@ h3{
     gap: 1.5em;
     flex-direction: row;
     margin-top: 13em;
-    margin-left: 10em;
+    margin-left: 9em;
     justify-content: center;
     align-items: center;
 }
@@ -197,12 +202,30 @@ h3{
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: 0.1em rgb(221, 219, 219) solid;
+    border: 0.3em rgb(221, 219, 219) solid;
     border-radius: 1em;
-    width: 13em;
+    width: 14em;
     height: 10em;
 }
+.fim{
+    display: flex;
+    margin-top: 1em;
+     margin-left: 3em;
+     flex-direction: row;
+}
 
+.finam{
+    font-size:  2em;
+}
+.cont{
+    display: flex;
+    gap: 0.10em;
+    font-size: 1.9em;
+}
+
+.id{
+
+}
 
 
 
