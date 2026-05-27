@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    font-size: 10px;
+}
+.tudo{
+    position: relative;
+}
+.começo{
+    display: flex;
+    align-items: center;
+    margin-top: 3.3em;
+    
+}
+.titulo{
+    display: flex;
+    white-space: nowrap;
+}
+h1{
+font-size: 2.3em;
+margin-left: 2.5em;
+color: rgb(29, 0, 158);
+}
+.bot{
+    display: flex;
+    gap: 2.1em;
+    margin-left: 10em;
+    font-size: 1.8em;
+}
+.img1{
+    display: flex;
+    margin-right: em;
+}
+.but1 a, .but2 a, .but3 a, .but4 a, .but5 a{
+     text-decoration: none;
+     white-space: nowrap;
+     color: rgb(29, 0, 158);
+}
+.but1 :hover, .but2 :hover, .but3 :hover, .but4 :hover,.but5 :hover{
+    color: rgb(106, 76, 240);
+    background-color: rgb(255, 255, 255);
+    padding:0.5em 1em ;
+    border-radius: 2em;
+    border: solid 0.1em rgb(214, 214, 219);
+}
+.prédio{
+    margin-left: 100em;
+    display: flex;
+}
+.meio{
+    background-color: rgb(250, 248, 245);
+    margin-top: 5em;
+    position: relative;
+    background-image: url(prédio.png);
+    height: 70em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+    
+.frase{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 17em;
+    left: 4em;
+    gap: 3em;
+    flex-direction: column;
+    align-items: center; 
+    color: rgba(255, 255, 255, 0.767);
+    backdrop-filter: blur(0.7em);
+    padding:0.5em 0.2em ;
+    height: 30em;
+    width: 70em;
+    border-radius: 2em;
+    
+      
+}
+.palavra{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size:  3.4em;
+    color: rgb(29, 0, 158);
+    align-items: center;
+}
+.but6{
+    font-size: 2.3em ;
+    display: flex;
+    margin-right: 18.5em;
+    border: 0.1em solid rgb(29, 0, 158);
+    padding: 0.23em  0.12em;
+    width: 9em;
+    height: 0.9em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    color: white;
+    background-color:  rgb(29, 0, 158);;
+    text-decoration: none;
+    box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+}
+.but6:hover{
+    font-size: 2.3em ;
+    display: flex;
+    margin-right: 18.5em;
+    border: 0.1em solid rgb(171, 146, 240);
+    padding: 0.23em  0.12em;
+    width: 9em;
+    height: 0.9em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    color: rgb(29,0, 158);
+    background-color: rgb(171, 146, 240) ;
+    text-decoration: none;
+
+}
+.semifinal{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2.9em;
+    font-size: 2em;
+    position: absolute;
+    top: 35em;
+    left: 1.3em;
+    background-color: white;
+    height: 9em;
+    width: 60em;
+    border-radius: 2em;
+    box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(84, 69, 151);
+}
+
+h3{
+    font-size: 1m;
+      color: rgb(29, 0, 158);
+}
+
+
+.div1, .div2, .div3, .div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  flex: 1;                        
+  text-align: center;
+  gap: 0.4em;
+}
+
+
+.div1 a, .div2 a, .div3 a, .div4 a {
+  display: flex;
+  margin: 0;       
+  text-decoration: none;
+  background-color: rgb(29, 0, 158);
+  color: white;
+  height: 2em;
+  width: 8em;               
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3em;
+  box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+}
+.div1 a:hover, .div2 a:hover, .div3 a:hover, .div4 a:hover{
+      display: flex;
+  margin: 0;       
+  text-decoration: none;
+  background-color: rgb(171, 146, 240);
+  color: white;
+  height: 2em;
+  width: 8em;               
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3em;
+   color: rgb(29,0, 158);
+  box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+}
+.quasefinal {
+   display: flex;
+   align-items: center
+}
+.nosso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.9em;
+    margin-top: 15em;
+    margin-left: 11em;
+
+}
+.nosso h3{
+    font-size: 3em;
+}
+.nosso p{
+    font-size: 2em;
+}
+.a{
+     font-size: 1.7em ;
+    display: flex;
+    margin-right: 18.5em;
+    padding: 0.2em  0.  2em;
+    width: 10em;
+    height: 2.5em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    color: rgb(29, 0, 158);
+    text-decoration: none;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(219, 216, 216);
+}
+.a:hover{
+ box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240)
+}
+.cola{
+    display: flex;
+    height: 2em;
+    gap: 1.5em;
+    flex-direction: row;
+    margin-top: 13em;
+    margin-left: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.co1,.co2,.co3,.co4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 0.3em rgb(221, 219, 219) solid;
+    border-radius: 1em;
+    width: 14em;
+    height: 10em;
+}
+.fim{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 3em;
+    flex-direction: row;
+    border: solid 0.1em gainsboro;
+    
+}
+h5{
+     font-size:  1.3em;
+     color: rgb(29, 0, 158);
+     justify-content: center;
+}
+.cont{
+    display: flex;
+    gap: 0.1em;
+    font-size: 1.9em;
+    padding: 0.9em 1.9em ;
+    align-items: center;
+   
+}
+.not{
+    display: flex;
+    gap: 0.10em;
+    font-size: 1.9em;
+    flex-direction: column;
+    border: solid 0.1em gainsboro;
+    padding: 0.9em 1.9em ;
+    
+}
+.pr{
+    display: flex;
+    gap: 0.10em;
+    font-size: 1.9em;
+    flex-direction: column; 
+    padding: 0.9em 1.9em ;
+}
+
+
+
+
+
+
