@@ -112,17 +112,17 @@ h2{
     font-size: 2.3em ;
     display: flex;
     margin-right: 18.5em;
-    border: 0.1em solid rgb(106, 76, 240);
+    border: 0.1em solid rgb(171, 146, 240);
     padding: 0.23em  0.12em;
     width: 9em;
     height: 0.9em;
     justify-content: center;
     align-items: center;
     border-radius: 0.3em;
-    color: rgb(255, 255, 255);
-    background-color: rgb(146, 121, 255) ;
+    color: rgb(29,0, 158);
+    background-color: rgb(171, 146, 240) ;
     text-decoration: none;
-    box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
+
 }
 .semifinal{
     display: flex;
@@ -175,13 +175,14 @@ h3{
       display: flex;
   margin: 0;       
   text-decoration: none;
-  background-color: rgb(146, 121, 255);
+  background-color: rgb(171, 146, 240);
   color: white;
   height: 2em;
   width: 8em;               
   justify-content: center;
   align-items: center;
   border-radius: 0.3em;
+   color: rgb(29,0, 158);
   box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240);
 }
 .quasefinal {
@@ -204,7 +205,7 @@ h3{
     font-size: 2em;
 }
 .a{
-      font-size: 1.5em ;
+     font-size: 1.7em ;
     display: flex;
     margin-right: 18.5em;
     padding: 0.2em  0.  2em;
@@ -217,16 +218,20 @@ h3{
     text-decoration: none;
     box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(219, 216, 216);
 }
+.a:hover{
+ box-shadow: 0.1em  0.1em 0.1em 0.1em  rgb(106, 76, 240)
+}
 .cola{
     display: flex;
     height: 2em;
     gap: 1.5em;
     flex-direction: row;
     margin-top: 13em;
-    margin-left: 9em;
+    margin-left: 3em;
     justify-content: center;
     align-items: center;
 }
+
 .co1,.co2,.co3,.co4{
     display: flex;
     justify-content: center;
@@ -242,7 +247,7 @@ h3{
     margin-top: 1em;
     margin-left: 3em;
     flex-direction: row;
-       border: solid 0.1em gainsboro;
+    border: solid 0.1em gainsboro;
     
 }
 h5{
@@ -255,7 +260,7 @@ h5{
     gap: 0.1em;
     font-size: 1.9em;
     padding: 0.9em 1.9em ;
-    justify-content: center;
+    align-items: center;
    
 }
 .not{
@@ -273,8 +278,6 @@ h5{
     font-size: 1.9em;
     flex-direction: column; 
     padding: 0.9em 1.9em ;
-   
-    
 }
 
 
